@@ -1,0 +1,17 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    /* ele aplicou em todo mundo a fonte 2rem */
+    /* no entanto no input e no button não aplicou? */
+    /* colocando font-size: inherit no input, ele pega */
+    font-family: Roboto;
+}
+
+/* input, button {
+    font-size: inherit;
+} */
+
+p {
+    line-height: 1.5;
+    font-weight: 600;
+}
