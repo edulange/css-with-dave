@@ -11,11 +11,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-main {
-}
-
 /* p {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .opposite {
@@ -23,8 +20,7 @@ main {
   background-color: #333;
   color: whitesmoke;
   margin-top: 100px;
-  height: 200px;
-  padding: 4rem;
+  padding: 1rem;
 } */
 
 ul {
