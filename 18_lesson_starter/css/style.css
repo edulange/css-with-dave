@@ -66,13 +66,14 @@ main {
   border: 1px solid black;
   border-radius: 0.5rem;
   background-color: gray;
-  max-width: 1920px;
+  width: 50%;
 }
 
 .profile-pic-figure img {
-  max-width: 350px;
+  width: 100%;
   height: auto;
-  /* min-width: ; */
+  max-width: 450px;
+  min-width: 150px;
   border: 2px solid #fff;
   border-radius: 50%;
 }
@@ -124,6 +125,7 @@ footer {
     background-image: radial-gradient(whitesmoke, rebeccapurple);
   }
 
+  
 
 }
 
