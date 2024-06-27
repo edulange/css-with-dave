@@ -18,11 +18,17 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
 }
 
-@media (min-width: 56.25em) {  /* 900px */
-    .container {
-        flex-direction: row;
-    }
+.flexflow {
+    display: flex;
+    border: 5px solid white;
+    width: 300px;
+    /* flex-wrap: wrap-reverse;
+    flex-direction: row; */
+    flex-flow: row wrap-reverse;
+    /* mesma coisa  */
 }
+
+https://youtu.be/nPEGdEvGLSE?si=V1Z0KxGhvJwpV1sA
