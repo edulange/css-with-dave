@@ -50,15 +50,24 @@ main {
   flex-grow: 1;
 }
 
+
 .hero {
   display: flex;
-  border: 5px solid green;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 1rem;
 }
 
 .hero h2 {
   font-size: 2rem;
 }
+
+figure {
+  max-width: 400px;
+}
+
+
+
 
 .profile-pic-figure {
   padding: 0.5rem;
@@ -73,7 +82,7 @@ main {
   width: 100%;
   height: auto;
   max-width: 450px;
-  min-width: 150px;
+  min-width: 50px;
   border: 2px solid #fff;
   border-radius: 50%;
 }
